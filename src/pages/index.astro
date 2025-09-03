@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.jsx";
+import About from "../components/About.jsx";
+import Projects from "../components/Projects.jsx";
+import SkillTree from "../components/SkillTree.jsx";
+import Experience from "../components/Experience.jsx";
+import CTA from "../components/CTA.jsx"
+---
+
+<Layout title="Mervan Palmér | Portfolio">
+  <Hero client:load />
+  <About client:load />
+  <SkillTree client:load />
+  <Projects client:load />
+  <Experience client:load />
+  <CTA client:load />
+</Layout>

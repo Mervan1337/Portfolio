@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Background circle animation */
+@keyframes pulse-slow {
+  0%, 100% { transform: scale(1); opacity: 0.1; }
+  50% { transform: scale(1.1); opacity: 0.15; }
+}
+
+.bg-pulse {
+  animation: pulse-slow 6s ease-in-out infinite;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Heading shadow */
+.heading-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
