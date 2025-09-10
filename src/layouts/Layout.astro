@@ -1,6 +1,7 @@
 ---
 const { title = "Mervan Palmér" } = Astro.props;
 
+import '../styles/global.css';
 // Import icons as default exports
 import GitHub from 'lucide-react/dist/esm/icons/github.js';
 import Linkedin from 'lucide-react/dist/esm/icons/linkedin.js';
@@ -42,8 +43,6 @@ import BackToTop from '../components/helperComponents/BackToTop';
         }
       }
     </script>
-
-    <link rel="stylesheet" href="/src/styles/global.css" />
   </head>
 
   <body class="bg-gray-900 text-gray-200 font-sans relative overflow-x-hidden">
